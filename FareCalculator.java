@@ -23,6 +23,9 @@ public class FareCalculator
         double time = sc.nextDouble();
         System.out.print("Are you local? ");
         boolean isLocal  = sc.nextBoolean();
+        System.out.print("Is it nighttime? ");
+        boolean isNight = sc.nextBoolean();
+        double totalCharge = 0.0;
         
     }
 }
