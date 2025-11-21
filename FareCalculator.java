@@ -14,7 +14,7 @@ public class FareCalculator
         Scanner sc = new Scanner(System.in);
         int baseFare = 20;
         int perKmCharge = 10;
-        int perMinCharge = 1;
+        int perMinCharge = 2;
         int localDiscountPercentage = 20; //applicable if distance > 10km.
         int nightExtraChargePercentage = 10;
         System.out.print("How much was distance of trip? ");
@@ -26,6 +26,6 @@ public class FareCalculator
         System.out.print("Is it nighttime? ");
         boolean isNight = sc.nextBoolean();
         double totalCharge = 0.0;
-        
+        totalCharge = perKmCharge*distance + perMinCharge*time
     }
 }
